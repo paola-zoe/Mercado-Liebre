@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #ebebeb;
+}
+.registro{
+    max-width: 50%px;
+    width: 100%;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+}
+.form-title{
+    text-align: center;
+    font-size: 30px;
+}
+.form .user-data{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 35px;
+}
+.user-data .form-items{
+    text-align: center;
+    margin-bottom: 15px;
+    width: 50%;
+}
+.user-data .form-items input{
+    text-align: center;
+    height: 45px;
+    width: 90%;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    padding-left: 15px;
+}
+.form-radio {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.form-user{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.form-items {
+    display: flex;
+    flex-direction: column;
+}
+.form .form-items label {
+    margin-bottom: 15px;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.form-password .form-items{
+    margin-bottom: 15px;
+    width: 50%;
+}
+.form .form-password{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+.form .form-password input{
+    height: 45px;
+    width: 90%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    padding-left: 15px;
+}
+.form-checkbox label{
+    margin-bottom: 15px;
+    display: block;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.form-radio label{
+    margin-bottom: 15px;
+    display: block;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+.button-submit{
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    background-color: #1259c3;
+    color: white;
+    border-radius: 10px;
+    margin-right:30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+.button-submit:hover {
+    background-color: #0022AA;
+    color: #FFFFFF; 
+}
+.button-delete{
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    background-color: #d84040;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+.button-delete:hover{
+    background-color: #ff0000;
+}
